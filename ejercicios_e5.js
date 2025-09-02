@@ -67,6 +67,7 @@ let numeros2 = [3, 1, 4, 2];
 numeros2.sort((a, b) => a - b); // Orden ascendente
 console.log(numeros2); // [1, 2, 3, 4]
 
+
 /*8. join(separador): Convierte todos los elementos del arreglo en una cadena,
 usando el separador especificado (por defecto, una coma).*/
 
@@ -86,6 +87,14 @@ elemento del arreglo, sin devolver un nuevo arreglo.javascript*/
 
 let colores1 = ['rojo', 'verde', 'azul'];
 colores1.forEach(color => console.log(color));
+
+for (let color of colores1) {
+    console.log(color);
+}
+
+for (let i = 0; i < colores1.length; i++) {
+    console.log(colores1[i]);
+}
 
 // Imprime: rojo, verde, azul
 /*11.map(callback(elemento, indice, arreglo)): Crea un nuevo arreglo aplicando
